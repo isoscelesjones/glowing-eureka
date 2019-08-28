@@ -152,7 +152,7 @@ function resize_to_window() {
 }
 
 function clock_init() {
-	canvas = document.getElementById('ryoksoppclockbeta');
+	canvas = document.getElementById('royksoppclockbeta');
 	ctx = canvas.getContext('2d');
 	clockFace = new ClockFace(ctx);
 	window.requestAnimationFrame(drawCurrent);
